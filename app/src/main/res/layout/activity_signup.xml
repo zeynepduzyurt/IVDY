@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Signup">
+
+
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/bilgi" />
+
+    <Button
+        android:id="@+id/Iagree"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:background="#2a2ab2"
+        android:paddingBottom="10dp"
+        android:text="I AGREE"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Idissagree"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:paddingBottom="10dp"
+        android:text="I DISAGREE"
+        android:textColor="#2a2ab2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+
+
+        android:text="By creating an account , you agree to the IVDY Terms of Service and Privacy Policy." />
+</RelativeLayout>
